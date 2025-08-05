@@ -8,6 +8,7 @@ import requests from "./request";
 function Homescreen() {
   return (
     <div className='homescreen'>
+        {/* hi this is my project */}
         <Nav/>
         <Banner/>
         <Row title ="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow/>
@@ -16,6 +17,7 @@ function Homescreen() {
         <Row title ="Top Rated" fetchUrl={requests.fetchTopRated}/>
          
         <Row title ="Action Movies" fetchUrl={requests.fetchActionMovies}/>
+        <div></div>
          
         <Row title ="Comedy Movies" fetchUrl={requests.fetchComedyMovies}/>
          
